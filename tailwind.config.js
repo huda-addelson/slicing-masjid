@@ -7,9 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        hanken: ["var(--font-hanken)"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#165648",
       },
     },
   },
